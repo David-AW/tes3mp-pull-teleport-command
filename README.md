@@ -13,4 +13,4 @@ CTRL+F and search for ```elseif cmd[1] == "difficulty"```
 
 Copy and paste this snippet on the empty line right above the line you searched for.
 ```elseif cmd[1] == "pull" then
-	pull.ProcessPullCommand(pid, cmd[2])```
+	pull.ProcessPullCommand(pid, cmd[2])
