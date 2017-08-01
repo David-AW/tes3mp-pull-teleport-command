@@ -25,7 +25,7 @@ Methods.ProcessPullCommand = function(pid, pid2)
 		end
 	else
 		if pullable[pid] == nil then
-			timer = tes3mp.CreateTimerEx("pullTimerExpired", time.seconds(pullableTimeLimit), "i", pid)
+			local timer = tes3mp.CreateTimerEx("pullTimerExpired", time.seconds(pullableTimeLimit), "i", pid) -- Thanks to perfectcolors for finding the scoping error on this line.
 			pullable[pid] = true
 			tes3mp.SendMessage(pid, "You are able to be pulled to nearby players for "..pullableTimeLimit.." seconds.\n", false)
 			tes3mp.StartTimer(timer)
