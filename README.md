@@ -1,6 +1,6 @@
 # tes3mp-pull-teleport-command
 
-### Using the Command
+## Using the Command
 
 In-game, use ```/pull``` to become "pullable" to nearby players.
 
@@ -8,7 +8,7 @@ Nearby players can use ```/pull 0``` with 0 being whatever the pullable player's
 	to teleport the player to them.
 
 
-### Installing the Script
+## Installing the Script
 	
 	
 To install the script you first drop **pull.lua** into your **\mp-stuff\scripts** folder.
