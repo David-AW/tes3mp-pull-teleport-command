@@ -1,7 +1,7 @@
 Methods = {}
 
 pullable = {}
-pullableTimeLimit = 5 -- In seconds
+pullableTimeLimit = 30 -- In seconds
 pullableDistance = 12000 -- a cell is about 8000x8000 units so the Hypotenuse is ~11300 units.
 
 Methods.ProcessPullCommand = function(pid, pid2)
