@@ -47,10 +47,10 @@ function findDistance(pid, pid2)
 	local x1 = tes3mp.GetPosX(pid2)
 	local x2 = tes3mp.GetPosX(pid)
 	
-	local z1 = tes3mp.GetPosZ(pid2)
-	local z2 = tes3mp.GetPosZ(pid)
+	local y1 = tes3mp.GetPosY(pid2)
+	local y2 = tes3mp.GetPosY(pid)
 	
-	return math.sqrt(math.pow(x2 - x1, 2) + math.pow(z2 - z1, 2))
+	return math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2))
 
 end
 
